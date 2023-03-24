@@ -40,7 +40,7 @@ jobs:
       - name: mvn version
         run: mvn -version
       - name: git version
-        run: git -version
+        run: git --version
       - name: terraform version
         run: terraform --version
       - name: packer version
