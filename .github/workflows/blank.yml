@@ -39,8 +39,11 @@ jobs:
         run: java -version
       - name: mvn version
         run: mvn -version
-      - name: docker version
-        run: docker -version
+      - name: git version
+        run: git -version
       - name: terraform version
         run: terraform --version
+      - name: packer version
+        run: packer --version
+        
       
